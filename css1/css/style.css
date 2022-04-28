@@ -1,10 +1,15 @@
 *{
     margin: 0px;
     padding: 0px;
+    
 }
 
 body{
-    background-color: #ccc;
+    background-image: url(../imagem/s17Qi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
 }
 
 form{
@@ -14,10 +19,11 @@ form{
 }
 
 .card{
-    box-shadow: 1px 1px 5px #ccc;
+    box-shadow: 1px 1px 9px white ;
     background-color: white;
     padding: 30px;
     border-radius: 5px;
+    
 }
 
 .card-top{
@@ -31,7 +37,7 @@ form{
 
 .card-group > label{
     width: 100px;
-    color: rgb(46, 44, 44);
+    color: rgb(0, 0, 0);
     display: block;
 }
 
@@ -65,4 +71,21 @@ form{
 .title{
     color: rgb(184, 78, 78);
     
+}
+
+
+
+footer{
+    background-image: linear-gradient(rgb(18, 18, 155), rgb(32, 26, 26));
+    bottom: 0;
+    left: 0;
+    height: 30px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    color: wheat;
+    text-transform: capitalize;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
